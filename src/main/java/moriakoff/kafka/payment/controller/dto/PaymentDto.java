@@ -12,7 +12,7 @@ public class PaymentDto {
 
     private TransactionType transactionType;
     private Double transactionAmount;
-    private ClientInfo clientInfo;
+    private ClientInfoDto clientInfoDto;
 
 
 

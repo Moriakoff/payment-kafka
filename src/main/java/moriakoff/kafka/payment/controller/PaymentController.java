@@ -15,7 +15,7 @@ public class PaymentController {
 
     @PostMapping("payment")
     public void payment(@RequestBody PaymentDto paymentDto) {
-        paymentDtoKafkaTemplate.send("payment", paymentDto);
+        paymentDtoKafkaTemplate.send("paymentTest", paymentDto);
     }
 
 

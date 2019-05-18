@@ -10,7 +10,7 @@ import lombok.*;
 public class ContactAddressDto {
 
     private String city;
-    private String region;
+    private String street;
     private String country;
     private String houseNumber;
     private String apartmentNumber;

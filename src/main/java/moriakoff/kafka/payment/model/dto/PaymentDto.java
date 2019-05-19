@@ -1,7 +1,7 @@
-package moriakoff.kafka.payment.controller.dto;
+package moriakoff.kafka.payment.model.dto;
 
 import lombok.*;
-import moriakoff.kafka.payment.controller.dto.type.TransactionType;
+import moriakoff.kafka.payment.model.type.TransactionType;
 
 @Getter
 @Setter
@@ -13,7 +13,6 @@ public class PaymentDto {
     private TransactionType transactionType;
     private Double transactionAmount;
     private ClientInfoDto clientInfoDto;
-
 
 
 }

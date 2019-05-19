@@ -1,4 +1,4 @@
-package moriakoff.kafka.payment.controller.dto;
+package moriakoff.kafka.payment.model.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;

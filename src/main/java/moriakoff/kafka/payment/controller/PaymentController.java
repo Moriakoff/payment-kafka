@@ -1,6 +1,6 @@
 package moriakoff.kafka.payment.controller;
 
-import moriakoff.kafka.payment.controller.dto.PaymentDto;
+import moriakoff.kafka.payment.model.dto.PaymentDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.web.bind.annotation.PostMapping;

@@ -1,4 +1,4 @@
-package moriakoff.kafka.payment.controller.dto;
+package moriakoff.kafka.payment.model.dto;
 
 import lombok.*;
 
